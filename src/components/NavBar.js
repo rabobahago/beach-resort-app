@@ -33,7 +33,7 @@ class NavBar extends React.Component {
             </button>
           </div>
           <ul
-            className={this.state.isOpen ? 'nav-links : show-nav' : 'nav-links'}
+            className={this.state.isOpen ? 'nav-links  show-nav' : 'nav-links'}
           >
             <li>
               <Link to="/">Home</Link>
